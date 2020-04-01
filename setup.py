@@ -10,6 +10,7 @@ setup(
     description="Turn a magnet link into a torrent",
     license="MIT",
     include_package_data=True,
+    entry_points={"tridentstream.apps": "app = trsmagnet2torrent"},
     install_requires=["magnet2torrent>=1.0.2,<2.0.0",],
     packages=find_packages(),
     keywords=["tridentstream,plugin_type:magnetresolver"],
